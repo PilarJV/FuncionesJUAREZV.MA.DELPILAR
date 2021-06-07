@@ -1,6 +1,8 @@
 #include <stdio.h>
-
+#include <stdbool.h>// Boolean
 long factorial(int n)
+void simpson(); //Declaración de función
+
 {
 	if (n == 0) /* caso base */
 		return 1; /* como 0! = 1, regresa 1*/
@@ -15,3 +17,13 @@ int main(void)
 
 	return 0;
 }
+
+
+void simpson(int dia){ //Implementación de función
+    if(dia <= 6){
+	printf("Fase 1\n");
+    }
+     
+    else{
+	printf("Fase 3\n");
+    }
