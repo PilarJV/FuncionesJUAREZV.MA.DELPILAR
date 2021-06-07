@@ -27,3 +27,4 @@ void versimpson(int dia){ //Implementación de función
     else{
 	printf("Fase 3\n");
     }
+
